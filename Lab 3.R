@@ -378,6 +378,7 @@ res2$r
 symnum(res, abbr.colnames = FALSE)
 
 #with corrplot
+library(corrplot)
 corrplot(res, type = "upper", order = "hclust", 
          tl.col = "black", tl.srt = 45)
 
